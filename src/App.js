@@ -6,28 +6,7 @@ import Search from "./components/Search";
 import Header from "./components/Header";
 
 function App() {
-  const [notes, setNotes] = useState([
-    // {
-    //   id: nanoid(),
-    //   text: "This is my first note!",
-    //   date: "15/08/1997",
-    // },
-    // {
-    //   id: nanoid(),
-    //   text: "This is my second note!",
-    //   date: "04/05/1985",
-    // },
-    // {
-    //   id: nanoid(),
-    //   text: "This is my third note!",
-    //   date: "10/02/1954",
-    // },
-    // {
-    //   id: nanoid(),
-    //   text: "This is my fourth note!",
-    //   date: "15/06/1969",
-    // },
-  ]);
+  const [notes, setNotes] = useState([]);
 
   const [searchText, setSearchText] = useState("");
 
